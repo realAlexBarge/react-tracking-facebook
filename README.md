@@ -33,8 +33,14 @@ There is also the option to track custom events with event action:
 FacebookTracking.trackEvent(eventAction, eventArgs);
 ```
 
-There is also a method to expose the raw fbq tracking object from the window:
+There is also a method to expose the raw fbq tracking object api from the window:
 
 ```js
 FacebookTracking.getTracker();
 ```
+
+# How this works
+
+This modules takes care of injecting the provider specific tracking script into the document and provides a tiny wrapper for the tracking api. It also exposes the tracker object api for direct access.
+
+Documentation for the raw tracker api can be found [here](https://developers.facebook.com/docs/facebook-pixel/implementation).
