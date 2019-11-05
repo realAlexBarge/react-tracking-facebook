@@ -1,6 +1,6 @@
 {
   "name": "react-tracking-facebook",
-  "version": "0.3.1",
+  "version": "0.3.3",
   "description": "React Facebook Tracking Module",
   "main": "./lib/index.js",
   "scripts": {
