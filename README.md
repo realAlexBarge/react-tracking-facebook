@@ -27,10 +27,16 @@ After initializing page views can be tracked like this:
 FacebookTracking.trackPageview();
 ```
 
-There is also the option to track custom events with event action:
+There is the option to track standard events with event action and event args:
 
 ```js
 FacebookTracking.trackEvent(eventAction, eventArgs);
+```
+
+There is also the option to track custom events with event action and event args:
+
+```js
+FacebookTracking.trackCustomEvent(eventAction, eventArgs);
 ```
 
 There is also a method to expose the raw fbq tracking object api from the window:
